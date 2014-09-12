@@ -1,0 +1,80 @@
+/* Resume code
+100% by Joshua Mobley */
+
+/* Universal font change */
+* {
+    font-family: Arial;    
+}
+/* Background image, transparency done in photoshop */
+body {
+    background-image:url(http://i.imgur.com/u79GRwG.jpg);
+    height: 90%;
+}
+/* Header */
+#header {
+    background-color: white;
+    height: 5%;
+    width: 75%;
+    font-family: Arial;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    float: center;
+    margin: auto;
+}
+/* Header Text in center */
+div span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Left Box */
+#left_box {
+    background-color: white;
+    height: 250px;
+    width: 125px;
+    margin: 1% auto 0px 12.5%;
+    border-radius: 5px;
+    float: left;
+}
+/* Avatar selecting image in (div div div img) Image Resized with CSS */
+#avatar img {
+    border: 2px solid gray; 
+    height: 75px;
+    width: 75px;
+    margin: 10px 0px 0px 22.5px;
+}
+/* Info Box */
+#info {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+/* smaller info below avatar */
+#sInfo {
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+/* Email Link In Left Box */
+#email_link {
+    font-size: 10px;
+}
+/* Center Box */
+#center_box {
+    height: 50.5%;
+    width: 59%;
+    background-color: white;
+    border-radius: 5px;
+    margin: -0.65% auto 0px 28.5%;
+}
+/* Center Box text info */
+#employment {
+    text-align: center;
+    padding-top: 5%;
+}
